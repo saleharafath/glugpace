@@ -51,6 +51,8 @@ const routes: Routes = [{
   path: 'fsmk-winter-camp-2k19' , component: FsmkWinterCampNinteenComponent
 },{
   path: 'what-is-git' , component: WhatIsGitComponent
+},{
+  path: '**', redirectTo: 'home'
 }];
 
 @NgModule({
